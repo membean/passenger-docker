@@ -1,4 +1,4 @@
-FROM phusion/baseimage:master
+FROM membean/baseimage:stretch-1.0.0
 MAINTAINER Phusion <info@phusion.nl>
 
 ADD . /pd_build
