@@ -4,7 +4,7 @@ source /pd_build/buildconfig
 
 RVM_ID=$(basename "$0" | sed 's/.sh$//')
 
-run minimal_apt_get_install openjdk-14-jre-headless
+run minimal_apt_get_install openjdk-11-jre-headless
 run dpkg-reconfigure ca-certificates-java
 
 header "Installing $RVM_ID"
